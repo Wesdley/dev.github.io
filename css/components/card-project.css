@@ -1,0 +1,10 @@
+.card-project .logo {
+    display: flex;
+    width: 280px;
+    height: 280px;
+    background-color: black;
+    box-shadow: 10px 10px white;
+    font-size: 288px;
+    color: white;
+    font-family: "Caesar Dressing" Arial, Helvetica, sans-serif;
+}
