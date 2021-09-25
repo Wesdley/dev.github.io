@@ -20,13 +20,13 @@
     <link rel="stylesheet" href="css/components/wrapper-skill.css">
     <link rel="stylesheet" href="css/components/skill-tec.css">
     <link rel="stylesheet" href="css/components/progess-bar.css">
-    <link rel="stylesheet" href="css/components/project.css">
     <link rel="stylesheet" href="css/components/card-project.css">
     <link rel="stylesheet" href="css/components/wrapper-card.css">
     <link rel="stylesheet" href="css/components/main-description.css">
+    <link rel="stylesheet" href="css/components/main-carousel.css">
     <link rel="stylesheet" href="css/components/button-arrow.css">
     <link rel="stylesheet" href="css/components/node-card.css">
-    
+
 </head>
 <body>
    <header class="main-header" style="background-color: purple;">
@@ -148,27 +148,36 @@
     <section class="main-section -bgSecond -bdBlack">
         <h2 class="main-title -second">Sobre</h2>
 
-        <p class="main-description">Hoje, estudando programação para ser um FrontEnd Developer, Ja trabalhei em diversas áreas. Trabalhei em fabrica de suco, mesa e cadeira e também em fabrica de sofa. Quando não estou trabalhando estou sempre estudando para melhorar minha nova carreira de desenvolvedor front end.
+        <section class="main-carousel">
+
+            <button class="button-arrow -left"><span class="content">Avançar</span></button>
+                <div class="itens">  
+                    <div class="elements">     
+                        <figure class="node-card">
+                            <figcaption class="title">2019</figcaption>
+                            <img src="img/logo globalfruit.jpg" alt="Logo da Global Fruit" class="logo">
+                        </figure>
+                        
+                        <figure class="node-card">
+                            <figcaption class="title">2020</figcaption>
+                            <img src="img/logo lj móveis.jpg" alt="Logo da LJ Móveis" class="logo">
+                        </figure>
+
+                        <figure class="node-card">
+                            <figcaption class="title">2020</figcaption>
+                            <img src="img/logo bom pastor.jpg" alt="Logo da Bom Pastor" class="logo">
+                        </figure>
+                    </div>
+                </div>
+
+            <button class="button-arrow -right"><span class="content">Voltar</span></button>
+        </section>
+
+        <p class="main-description">Hoje, estudando programação para ser um FrontEnd Developer.
         </p>
-
-        <button class="button-arrow -left"><span class="content">Avançar</span></button>
-
-        <figure class="node-card">
-            <figcaption class="title">2019</figcaption>
-            <img src="img/logo globalfruit.jpg" alt="Logo da Global Fruit" class="logo">
-        </figure>
         
-        <figure class="node-card">
-            <figcaption class="title">2020</figcaption>
-            <img src="img/logo lj móveis.jpg" alt="Logo da LJ Móveis" class="logo">
-        </figure>
-
-        <figure class="node-card">
-            <figcaption class="title">2020</figcaption>
-            <img src="img/logo bom pastor.jpg" alt="Logo da Bom Pastor" class="logo">
-        </figure>
-
-        <button class="button-arrow -right"><span class="content">Voltar</span></button>
     </section>
+
+    <script scr="./js/a.js"></script>
 </body>
 </html>
