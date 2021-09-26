@@ -10,10 +10,10 @@
     content: '';
     position: absolute;
     top: 32px;
-    left: 60px;
+    left: 55px;
     display: block;
     height: 6px;
-    width: calc(100% - 120px);
+    width: calc(100% - 100px);
     background-color: black;
 }
 
