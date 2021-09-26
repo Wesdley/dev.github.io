@@ -4,11 +4,12 @@
     padding:18px 20px;
     box-shadow: 5px 5px 0 black;
     margin-right: 0px;
-    transition: transform 100ms cubic-bezier(.45,.97,.68,2.48);
+    transition: transform 300ms cubic-bezier(.45,.97,.68,2.48);
     font-family: 'Caesar Dressing', cursive, sans-serif;
     font-size: 20px;
     color: white;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .main-button:hover {
@@ -17,4 +18,8 @@
 
 .main-button.-full {
     width: 100%;
+}
+
+.main-button.-full:hover {
+    transform: scale(1.01);
 }
